@@ -1,7 +1,7 @@
 import { hydratePaintings } from "../store/action"
 
 const url =
-    "https://platane.github.io/js13k-2017/image-crusher-ui/image-crush-result.json"
+    "../image-crusher-ui/image-crush-result.json"
 
 export const attachToStore = store => {
     fetch(url)
